@@ -6,12 +6,19 @@ void ofApp::setup(){
 	v.setup();
 }
 
+bool checkDead(Vox &v) {
+	return v.vive;
+}
+
 //--------------------------------------------------------------
 void ofApp::update(){
 	v.update();
 	for (auto &vt : vs) {
 		vt.update();
+		//vt.erase(vs.begin(), vs.end(), checkDead);
 	}
+	//ofRemove(vs, checkDead);
+
 }
 
 //--------------------------------------------------------------
@@ -39,7 +46,9 @@ void ofApp::mouseMoved(int x, int y ){
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
-
+	Vox vt;
+	vt.setup(ofVec3f(ofGetMouseX(), ofGetMouseY(), 0));
+	vs.push_back(vt);
 }
 
 //--------------------------------------------------------------

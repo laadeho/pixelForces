@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pixelForces", "pixelForces\pixelForces.vcxproj", "{7FD42DF7-442E-479A-BA76-D0022F99702A}"
 EndProject
@@ -36,6 +36,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F4E57B87-A297-4FCE-89D0-1F45C1F5B443}
+		SolutionGuid = {37FD3508-71FB-40F0-B718-FA4945D584C0}
 	EndGlobalSection
 EndGlobal
