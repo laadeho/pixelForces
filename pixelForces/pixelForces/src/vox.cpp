@@ -17,7 +17,7 @@ void Vox::setup(ofVec3f pt) {
 void Vox::update(){
 	pos += v;
 	if (pos.y > nivelPiso) {
-		//vive = false;
+		vive = false;
 	}
 }
 
