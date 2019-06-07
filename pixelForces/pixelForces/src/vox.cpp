@@ -5,19 +5,19 @@ Vox::Vox(){
 void Vox::setup(){
 	g = 9.81;
 	v = ofVec3f(0, g, 0);
-	nivelPiso = 250;
+	nivelPiso = 550;
 }
 
 void Vox::setup(ofVec3f pt) {
 	pos = pt;
 	v = ofVec3f(0, 10, 0);
-	nivelPiso = 250;
+	nivelPiso = 550;
 }
 
 void Vox::update(){
 	pos += v;
 	if (pos.y > nivelPiso) {
-		vive = false;
+		//vive = false;
 	}
 }
 

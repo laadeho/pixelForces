@@ -96,20 +96,14 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\src\extra;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libfreenect\include;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libusb\include;libs/libfreenect/platform/windows;
-D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;
-D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;
-D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;
-D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs;
-D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs\ofxSmartFont;
-D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs\ofxSmartFont;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libusb\lib\vs\Win32\libusb-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
@@ -122,7 +116,13 @@ D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalInclud
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs\ofxSmartFont;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;
+D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;
+D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;
+D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;
+D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs;
+D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs\ofxSmartFont;
+D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
@@ -142,7 +142,7 @@ D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalInclud
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\src\extra;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libfreenect\include;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libusb\include;libs/libfreenect/platform/windows;
+      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;
 D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;
 D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;
 D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;
@@ -159,7 +159,7 @@ D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalInclud
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libusb\lib\vs\Win32\libusb-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
@@ -171,7 +171,7 @@ D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalInclud
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\src\extra;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libfreenect\include;D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libusb\include;libs/libfreenect/platform/windows;
+      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;
 D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;
 D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;
 D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;
@@ -187,7 +187,7 @@ D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalInclud
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
-      <AdditionalDependencies>D:\code\of_v0.10.1_vs2017_release\addons\ofxKinect\libs\libusb\lib\vs\x64\libusb-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>

@@ -55,34 +55,34 @@
       <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons">
-      <UniqueIdentifier>{cb04dcfa-d06e-4189-909d-bb8ae1141076}</UniqueIdentifier>
+      <UniqueIdentifier>{92ca7740-809c-4582-9f51-a5804052ce32}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxGui">
-      <UniqueIdentifier>{d8be2ceb-cc84-4d7c-9b29-5eb46d18d3a7}</UniqueIdentifier>
+      <UniqueIdentifier>{0c65d6ff-5433-4842-a2a0-da6cf56401a5}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxGui\src">
-      <UniqueIdentifier>{a7180427-9d26-46e1-b45c-45e23436485e}</UniqueIdentifier>
+      <UniqueIdentifier>{3c49a67f-0004-4272-a400-fc2408af283c}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxDatGui">
-      <UniqueIdentifier>{1c4b40cf-61f2-46c3-b0ca-03eb73b0e9a1}</UniqueIdentifier>
+      <UniqueIdentifier>{85b19c4c-dc17-43e7-9685-b2c7ebe9674c}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxDatGui\src">
-      <UniqueIdentifier>{36ddb331-7da8-41ad-8a78-035c5e6ace1e}</UniqueIdentifier>
+      <UniqueIdentifier>{b7a0f683-1f89-475d-a56e-b2a66d9fc1c9}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxDatGui\src\components">
-      <UniqueIdentifier>{e995b5f6-6d18-4531-b363-fd94edf08eb6}</UniqueIdentifier>
+      <UniqueIdentifier>{5229be2a-3609-4321-a075-2c8a5784f399}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxDatGui\src\core">
-      <UniqueIdentifier>{2829d962-d7db-48d5-8c2b-92631f141b8d}</UniqueIdentifier>
+      <UniqueIdentifier>{f4bb730a-b10f-48ab-b355-a4bb0ef3db4a}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxDatGui\src\libs">
-      <UniqueIdentifier>{c6447d0c-65cd-41e3-9daa-d8cb8a307175}</UniqueIdentifier>
+      <UniqueIdentifier>{e1f86235-057b-4c67-b3d0-65d45ffcec5a}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxDatGui\src\libs\ofxSmartFont">
-      <UniqueIdentifier>{1b9ea6f6-b5ad-44dd-b4b5-9f1c4f126659}</UniqueIdentifier>
+      <UniqueIdentifier>{0f021c2f-e072-40e4-b0ca-a27306b211af}</UniqueIdentifier>
     </Filter>
     <Filter Include="addons\ofxDatGui\src\themes">
-      <UniqueIdentifier>{7800abec-75d0-4d2f-b3df-d2678194e94a}</UniqueIdentifier>
+      <UniqueIdentifier>{4855f7a8-594d-4dd2-be25-729bec630ba7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
