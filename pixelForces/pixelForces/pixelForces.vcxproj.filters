@@ -49,6 +49,9 @@
     <ClCompile Include="src\vox.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxWin8Touch\src\ofxWin8Touch.cpp">
+      <Filter>addons\ofxWin8Touch\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -83,6 +86,12 @@
     </Filter>
     <Filter Include="addons\ofxDatGui\src\themes">
       <UniqueIdentifier>{4855f7a8-594d-4dd2-be25-729bec630ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWin8Touch">
+      <UniqueIdentifier>{741a4c71-7942-45e7-86a4-9e60f7e17669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWin8Touch\src">
+      <UniqueIdentifier>{18b7103f-d307-40e9-b5ca-aa7420cca433}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -187,6 +196,9 @@
     </ClInclude>
     <ClInclude Include="src\vox.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxWin8Touch\src\ofxWin8Touch.h">
+      <Filter>addons\ofxWin8Touch\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

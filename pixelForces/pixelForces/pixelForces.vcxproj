@@ -96,7 +96,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs\ofxSmartFont;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\code\of_v0.10.1_vs2017_release\addons\ofxWin8Touch\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\components;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\core;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\libs\ofxSmartFont;D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
@@ -108,6 +108,9 @@
     </Link>
     <PostBuildEvent>
     </PostBuildEvent>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -207,6 +210,7 @@ D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalInclud
     <ClCompile Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxGui\src\ofxSlider.cpp" />
     <ClCompile Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxGui\src\ofxSliderGroup.cpp" />
     <ClCompile Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxGui\src\ofxToggle.cpp" />
+    <ClCompile Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxWin8Touch\src\ofxWin8Touch.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\vox.cpp" />
@@ -244,6 +248,7 @@ D:\code\of_v0.10.1_vs2017_release\addons\ofxDatGui\src\themes;%(AdditionalInclud
     <ClInclude Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxGui\src\ofxSlider.h" />
     <ClInclude Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxGui\src\ofxSliderGroup.h" />
     <ClInclude Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxGui\src\ofxToggle.h" />
+    <ClInclude Include="..\..\..\..\of_v0.10.1_vs2017_release\addons\ofxWin8Touch\src\ofxWin8Touch.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\vox.h" />
   </ItemGroup>

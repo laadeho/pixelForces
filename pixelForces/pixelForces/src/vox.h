@@ -9,6 +9,7 @@ class Vox {
 
     void setup();
 	void setup(ofVec3f);
+	void setup(ofVec3f, int);
 	void update();
 	void draw();
 	void draw(ofVec3f, int, ofColor);
@@ -16,9 +17,11 @@ class Vox {
 	Vox();
 	
 	ofVec3f v, pos;
-	float g;
+	float g = 5;
 	int nivelPiso;
 	bool vive = true;
+	int tam = 10;
+	bool b3d;
 
 	private: 
 

@@ -3,15 +3,20 @@ Vox::Vox(){
 }
 
 void Vox::setup(){
-	g = 9.81;
 	v = ofVec3f(0, g, 0);
-	nivelPiso = 550;
+	nivelPiso = ofGetHeight()-150;
 }
 
 void Vox::setup(ofVec3f pt) {
 	pos = pt;
-	v = ofVec3f(0, 10, 0);
-	nivelPiso = 550;
+	v = ofVec3f(0, g, 0);
+	nivelPiso = ofGetHeight() - 150;
+}
+void Vox::setup(ofVec3f pt, int t) {
+	tam = t;
+	pos = pt;
+	v = ofVec3f(0, g, 0);
+	nivelPiso = ofGetHeight() - 150;
 }
 
 void Vox::update(){
@@ -28,5 +33,10 @@ void Vox::draw(ofVec3f p, int t, ofColor c) {
 }
 
 void Vox::draw() {
-	ofDrawBox(pos, 10);
+	if (b3d) {
+		ofDrawBox(pos, tam);
+	}
+	else {
+		ofDrawRectangle(pos, tam, tam);
+	}
 }

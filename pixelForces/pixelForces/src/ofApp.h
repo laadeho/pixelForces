@@ -21,7 +21,16 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+		//////////////////////////
+		/* Touches */
+		void touchDown(ofTouchEventArgs & touch);
+		void touchMoved(ofTouchEventArgs & touch);
+		void touchUp(ofTouchEventArgs & touch);
+		void touchDoubleTap(ofTouchEventArgs & touch);
+		void touchCancelled(ofTouchEventArgs & touch);
+		map<int, ofTouchEventArgs> touchMap;
 
+		///////////
 		Vox v;
 		vector<Vox> vs;
 };
